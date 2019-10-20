@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+          integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+<body>
+<header id="body-header">
+        <div class="topnav">
+            <div id="logo">
+                    <i class="fas fa-compact-disc"></i>
+            </div>
+            <div id="logoname">
+                    my <br/> Studio
+            </div>
+            <dvi id="fav">
+                   Favourites
+            </dvi>
+            <div id="search">
+                <i class="fas fa-search" id="search-icon"></i>
+                <input id="search-bar" type="text" placeholder="Search.." name="search">
+                <i id="mic" class="fas fa-microphone"></i>
+            </div>
+            <div id="bell">
+                    <i class="fas fa-bell"></i>
+            </div>
+            <div id="myimage">
+                <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg">
+            </div>
+        </div>
+</header>
+<main>
+
+    <section id="left" >
+        <div class="content" >
+            <div id="carousel-section">
+                <div class="carousel-display">
+                    <div class="carousel-box">
+                        <img src="image/3.jpg">
+                    </div>
+                    <div class="carousel-box">
+                        <img src="image/3.jpg">
+                    </div>
+                    <div class="carousel-box">
+                        <img src="image/3.jpg">
+                    </div>
+                </div>
+            </div>
+            <div id="latestrelease-section">
+                <div id="lr">
+                    <h1 id="lrtext">
+                        Latest Release
+                    </h1>
+                </div>
+                <div class="dropdown2">
+                    <input type="checkbox" id="checkbox_toggle2" >
+                    <ul class="dropdown-list">
+                        <li><a href="#">Play Now</a></li>
+                        <li><a href="#">Add to Queue</a></li>
+                        <li><a href="#">Add to Favourites</a></li>
+                        <li class="last"><a href="#">Get Info</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown3">
+                    <input type="checkbox" id="checkbox_toggle3" >
+                    <ul class="dropdown-list">
+                        <li><a href="#">Play Now</a></li>
+                        <li><a href="#">Add to Queue</a></li>
+                        <li><a href="#">Add to Favourites</a></li>
+                        <li class="last"><a href="#">Get Info</a></li>
+                    </ul>
+                </div>
+                <div class="album-display">
+                    <div class="albumbox">
+                        <div class="album-cover">
+                            <img src="image/1.jpg">
+                        </div>
+                        <div class="album-name">
+                            <p>
+                                Onism <br/> Aug 11, 2017
+                            </p>
+                        </div>
+                        <div class="album-dots">
+                            <div>
+
+                                <label for="checkbox_toggle2"><i class="fas fa-ellipsis-h"></i></label>
+                            </div>
+                            <div class="album-time">
+                                4:44
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="albumbox">
+                        <div class="album-cover">
+                            <img src="image/1.jpg">
+                        </div>
+                        <div class="album-name">
+                            <p>
+                                Onism <br/> Aug 11, 2017
+                            </p>
+                        </div>
+                        <div class="album-dots">
+                            <div>
+                                <label for="checkbox_toggle3"><i class="fas fa-ellipsis-h"></i></label>
+
+                            </div>
+                            <div class="album-time">
+                                4:44
+                            </div>
+                        </div>
+                    </div>
+                    <div class="albumbox">
+                        <div class="album-cover">
+                            <img src="image/1.jpg">
+                        </div>
+                        <div class="album-name">
+                            <p>
+                                Onism <br/> Aug 11, 2017
+                            </p>
+                        </div>
+                        <div class="album-dots">
+                            <div>
+                                <i class="fas fa-ellipsis-h"></i>
+
+                            </div>
+                            <div class="album-time">
+                                4:44
+                            </div>
+                        </div>
+                    </div>
+                    <div class="albumbox">
+                        <div class="album-cover">
+                            <img src="image/1.jpg">
+                        </div>
+                        <div class="album-name">
+                            <p>
+                                Onism <br/> Aug 11, 2017
+                            </p>
+                        </div>
+                        <div class="album-dots">
+                            <div>
+                                <i class="fas fa-ellipsis-h"></i>
+
+                            </div>
+                            <div class="album-time">
+                                4:44
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="popularartist-section">
+
+                <div class="PA">
+                    <h1 id="PA-text">
+                        Popular Artist
+                    </h1>
+                </div>
+                <div class="PA-display">
+                    <div class="PA-box">
+                        <div class="PA-pic">
+                            <img src="image/3.jpg">
+                        </div>
+                        <div class="PA-name">
+                            Snoop Dog
+                        </div>
+
+                    </div>
+                    <div class="PA-box">
+                        <div class="PA-pic">
+                            <img src="image/3.jpg">
+                        </div>
+                        <div class="PA-name">
+                            Snoop Dog
+                        </div>
+
+                    </div>
+                    <div class="PA-box">
+                        <div class="PA-pic">
+                            <img src="image/3.jpg">
+                        </div>
+                        <div class="PA-name">
+                            Snoop Dog
+                        </div>
+
+                    </div>
+                    <div class="PA-box">
+                        <div class="PA-pic">
+                            <img src="image/3.jpg">
+                        </div>
+                        <div class="PA-name">
+                            Snoop Dog
+                        </div>
+
+                    </div>
+                    <div class="PA-box">
+                        <div class="PA-pic">
+                            <img src="image/3.jpg">
+                        </div>
+                        <div class="PA-name">
+                            Snoop Dog
+                        </div>
+
+                    </div>
+                    <div class="PA-box">
+                        <div class="PA-pic">
+                            <img src="image/3.jpg">
+                        </div>
+                        <div class="PA-name">
+                            Snoop Dog
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="genres-section">
+                <div class="genre-display">
+                    <div id="genre-station">
+                        <div id="orange-box">
+
+                            <div id="station-name">
+                                Station
+                            </div>
+                            <div id="station-icon">
+                                <i class="fas fa-compact-disc"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="genres-box">
+                        <div class="genre-cover">
+                            <img src="image/2.jpg">
+                            <div class="genre-name">
+                                love
+                            </div>
+                        </div>
+                        <div class="genre-cover">
+                            <img src="image/2.jpg">
+                            <div class="genre-name">
+                                love
+                            </div>
+                        </div>
+                        <div class="genre-cover">
+                            <img src="image/2.jpg">
+                            <div class="genre-name">
+                                love
+                            </div>
+                        </div>
+                        <div class="genre-cover">
+                            <img src="image/2.jpg">
+                            <div class="genre-name">
+                                love
+                            </div>
+                        </div>
+                        <div class="genre-cover">
+                            <img src="image/2.jpg">
+                            <div class="genre-name">
+                                love
+                            </div>
+                        </div>
+                        <div class="genre-cover">
+                            <img src="image/2.jpg">
+                            <div class="genre-name">
+                                love
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="mood-section">
+                <div class="mood-box">
+                    <div class="mood-cover">
+                        <img src="image/1.jpg">
+                        <div class="mood-name">
+                            Party
+                        </div>
+                    </div>
+                </div>
+                <div class="mood-box">
+                    <div class="mood-cover">
+                        <img src="image/1.jpg">
+                        <div class="mood-name">
+                            Party
+                        </div>
+                    </div>
+                </div>
+                <div class="mood-box">
+                    <div class="mood-cover">
+                        <img src="image/1.jpg">
+                        <div class="mood-name">
+                            Party
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="latest-section">
+                <div class="latest-section-name">
+                    <h1 class="ltext">
+                        Latest English
+                    </h1>
+                </div>
+                <div class="latest-display">
+                    <div class="latest-box">
+                        <div class="latest-cover">
+                            <img src="image/1.jpg">
+                        </div>
+                        <div class="latest-name">
+                            Onism <br/> Aug 11, 2017
+                        </div>
+                    </div>
+                    <div class="latest-box">
+                        <div class="latest-cover">
+                            <img src="image/1.jpg">
+                        </div>
+                        <div class="latest-name">
+                            Onism <br/> Aug 11, 2017
+                        </div>
+                    </div>
+                    <div class="latest-box">
+                        <div class="latest-cover">
+                            <img src="image/1.jpg">
+                        </div>
+                        <div class="latest-name">
+                            Onism <br/> Aug 11, 2017
+                        </div>
+                    </div>
+                    <div class="latest-box">
+                        <div class="latest-cover">
+                            <img src="image/1.jpg">
+                        </div>
+                        <div class="latest-name">
+                            Onism <br/> Aug 11, 2017
+                        </div>
+                    </div>
+                    <div class="latest-box">
+                        <div class="latest-cover">
+                            <img src="image/1.jpg">
+                        </div>
+                        <div class="latest-name">
+                            Onism <br/> Aug 11, 2017
+                        </div>
+                    </div>
+                    <div class="latest-box">
+                        <div class="latest-cover">
+                            <img src="image/1.jpg">
+                        </div>
+                        <div class="latest-name">
+                            Onism <br/> Aug 11, 2017
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="latest-section">
+                <div class="latest-section-name">
+                    <h1 class="ltext">
+                        Latest English
+                    </h1>
+                </div>
+                <div class="latest-display">
+                    <div class="latest-box">
+                        <div class="latest-cover">
+                            <img src="image/1.jpg">
+                        </div>
+                        <div class="latest-name">
+                            Onism <br/> Aug 11, 2017
+                        </div>
+                    </div>
+                    <div class="latest-box">
+                        <div class="latest-cover">
+                            <img src="image/1.jpg">
+                        </div>
+                        <div class="latest-name">
+                            Onism <br/> Aug 11, 2017
+                        </div>
+                    </div>
+                    <div class="latest-box">
+                        <div class="latest-cover">
+                            <img src="image/1.jpg">
+                        </div>
+                        <div class="latest-name">
+                            Onism <br/> Aug 11, 2017
+                        </div>
+                    </div>
+                    <div class="latest-box">
+                        <div class="latest-cover">
+                            <img src="image/1.jpg">
+                        </div>
+                        <div class="latest-name">
+                            Onism <br/> Aug 11, 2017
+                        </div>
+                    </div>
+                    <div class="latest-box">
+                        <div class="latest-cover">
+                            <img src="image/1.jpg">
+                        </div>
+                        <div class="latest-name">
+                            Onism <br/> Aug 11, 2017
+                        </div>
+                    </div>
+                    <div class="latest-box">
+                        <div class="latest-cover">
+                            <img src="image/1.jpg">
+                        </div>
+                        <div class="latest-name">
+                            Onism <br/> Aug 11, 2017
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="right" >
+        <div id="sidebar">
+            <div class="queue">
+                <div id="queue-name">
+                    Queue
+                </div>
+                <div id="sort-name">
+                    <label for="checkbox_toggle">Queue</label>
+                </div>
+                <div class="arrow">
+                    <label for="checkbox_toggle"><i class="fas fa-chevron-down" ></i></label>
+                </div>
+            </div>
+            <div class="dropdown">
+                <input type="checkbox" id="checkbox_toggle">
+                <ul class="dropdown-list">
+                    <li><a href="#">PlayLists</a></li>
+                    <li class="last"><a href="#">Favourite Songs</a></li>
+                </ul>
+            </div>
+            <div>
+                <div class="playlist">
+                    <div class="playlist-display">
+                        <div class="playlist-box">
+                            <div class="playlist-number">
+                                <p class="grey">
+                                    01
+                                </p>
+                            </div>
+                            <div class="playlist-cover">
+                                <img src="image/3.jpg">
+                            </div>
+                            <div class="playlist-name">
+                                Mirage <br/> <span class="grey">Else</span>
+                            </div>
+                            <div class="playlist-heart grey">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="playlist-box">
+                            <div class="playlist-number">
+                                <p class="grey">
+                                    01
+                                </p>
+                            </div>
+                            <div class="playlist-cover">
+                                <img src="image/3.jpg">
+                            </div>
+                            <div class="playlist-name">
+                                Mirage <br/> <span class="grey">Else</span>
+                            </div>
+                            <div class="playlist-heart grey">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="playlist-box">
+                            <div class="playlist-number">
+                                <p class="grey">
+                                    01
+                                </p>
+                            </div>
+                            <div class="playlist-cover">
+                                <img src="image/3.jpg">
+                            </div>
+                            <div class="playlist-name">
+                                Mirage <br/> <span class="grey">Else</span>
+                            </div>
+                            <div class="playlist-heart grey">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="playlist-box">
+                            <div class="playlist-number">
+                                <p class="grey">
+                                    01
+                                </p>
+                            </div>
+                            <div class="playlist-cover">
+                                <img src="image/3.jpg">
+                            </div>
+                            <div class="playlist-name">
+                                Mirage <br/> <span class="grey">Else</span>
+                            </div>
+                            <div class="playlist-heart grey">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="playlist-box">
+                            <div class="playlist-number">
+                                <p class="grey">
+                                    01
+                                </p>
+                            </div>
+                            <div class="playlist-cover">
+                                <img src="image/3.jpg">
+                            </div>
+                            <div class="playlist-name">
+                                Mirage <br/> <span class="grey">Else</span>
+                            </div>
+                            <div class="playlist-heart grey">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="playlist-box">
+                            <div class="playlist-number">
+                                <p class="grey">
+                                    01
+                                </p>
+                            </div>
+                            <div class="playlist-cover">
+                                <img src="image/3.jpg">
+                            </div>
+                            <div class="playlist-name">
+                                Mirage <br/> <span class="grey">Else</span>
+                            </div>
+                            <div class="playlist-heart grey">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="playlist-box">
+                            <div class="playlist-number">
+                                <p class="grey">
+                                    01
+                                </p>
+                            </div>
+                            <div class="playlist-cover">
+                                <img src="image/3.jpg">
+                            </div>
+                            <div class="playlist-name">
+                                Mirage <br/> <span class="grey">Else</span>
+                            </div>
+                            <div class="playlist-heart grey">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="playlist-box">
+                            <div class="playlist-number">
+                                <p class="grey">
+                                    01
+                                </p>
+                            </div>
+                            <div class="playlist-cover">
+                                <img src="image/3.jpg">
+                            </div>
+                            <div class="playlist-name">
+                                Mirage <br/> <span class="grey">Else</span>
+                            </div>
+                            <div class="playlist-heart grey">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="playlist-box">
+                            <div class="playlist-number">
+                                <p class="grey">
+                                    01
+                                </p>
+                            </div>
+                            <div class="playlist-cover">
+                                <img src="image/3.jpg">
+                            </div>
+                            <div class="playlist-name">
+                                Mirage <br/> <span class="grey">Else</span>
+                            </div>
+                            <div class="playlist-heart grey">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="playlist-box">
+                            <div class="playlist-number">
+                                <p class="grey">
+                                    01
+                                </p>
+                            </div>
+                            <div class="playlist-cover">
+                                <img src="image/3.jpg">
+                            </div>
+                            <div class="playlist-name">
+                                Mirage <br/> <span class="grey">Else</span>
+                            </div>
+                            <div class="playlist-heart grey">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="playlist-box">
+                            <div class="playlist-number">
+                                <p class="grey">
+                                    01
+                                </p>
+                            </div>
+                            <div class="playlist-cover">
+                                <img src="image/3.jpg">
+                            </div>
+                            <div class="playlist-name">
+                                Mirage <br/> <span class="grey">Else</span>
+                            </div>
+                            <div class="playlist-heart grey">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="playlist-box">
+                            <div class="playlist-number">
+                                <p class="grey">
+                                    01
+                                </p>
+                            </div>
+                            <div class="playlist-cover">
+                                <img src="image/3.jpg">
+                            </div>
+                            <div class="playlist-name">
+                                Mirage <br/> <span class="grey">Else</span>
+                            </div>
+                            <div class="playlist-heart grey">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="playlist-box">
+                            <div class="playlist-number">
+                                <p class="grey">
+                                    01
+                                </p>
+                            </div>
+                            <div class="playlist-cover">
+                                <img src="image/3.jpg">
+                            </div>
+                            <div class="playlist-name">
+                                Mirage <br/> <span class="grey">Else</span>
+                            </div>
+                            <div class="playlist-heart grey">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="playlist-box">
+                            <div class="playlist-number">
+                                <p class="grey">
+                                    01
+                                </p>
+                            </div>
+                            <div class="playlist-cover">
+                                <img src="image/3.jpg">
+                            </div>
+                            <div class="playlist-name">
+                                Mirage <br/> <span class="grey">Else</span>
+                            </div>
+                            <div class="playlist-heart grey">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="playlist-box">
+                            <div class="playlist-number">
+                                <p class="grey">
+                                    01
+                                </p>
+                            </div>
+                            <div class="playlist-cover">
+                                <img src="image/3.jpg">
+                            </div>
+                            <div class="playlist-name">
+                                Mirage <br/> <span class="grey">Else</span>
+                            </div>
+                            <div class="playlist-heart grey">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="fadedScroller_fade2"></div>
+            </div>
+
+        </div>
+        <div class="fadedScroller_fade"></div>
+    </section>
+
+</main>
+<div class="footer">
+    <div class="footer-display">
+        <div class="left-footer">
+            <div class="footer-cover">
+                <img src="image/3.jpg">
+            </div>
+            <div class="footer-name">
+                Mirage <br/> <span class="grey">Else</span>
+            </div>
+            <div class="footer-heart grey">
+                <i class="far fa-heart"></i>
+            </div>
+        </div>
+        <div class="middle-footer">
+            <div class="controls">
+                <i class="fas fa-random"></i>
+                <i class="fas fa-backward"></i>
+                <i class="fas fa-play"></i>
+                <i class="fas fa-forward"></i>
+                <i class="fas fa-redo"></i>
+            </div>
+<!--            <audio controls>-->
+<!--                <source src="songs/drake.mp3" type="audio/mpeg">-->
+<!--            </audio>-->
+            <div class="proress">
+                <p class="time--current white">1:25</p>
+                <div class="progress-bar">
+                    <div class="fill"></div>
+                    <div class="dot"></div>
+                </div>
+                <p class="time--total white">3:15</p>
+            </div>
+        </div>
+        <div class="right-footer white">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-mobile"></i>
+            <i class="fas fa-volume-up vol"></i>
+            <div class="progress-bar2">
+                <div class="fill2"></div>
+                <div class="dot2"></div>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
